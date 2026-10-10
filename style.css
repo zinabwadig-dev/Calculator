@@ -44,27 +44,26 @@ button {
   cursor: pointer; 
   border-radius: 15px;
   border: none;
-  background: #334155; /* loun dyal ar9am - gris */
+  background: #334155; 
   color: white;
   font-weight: bold;
 }
 
-/* === HNA LES COULEURS === */
 .op { 
-  background: #f59e0b; /* l-orange dyal + - * / */
+  background: #f59e0b;
   color: white;
 }
 
 .equal { 
-  background: #22c55e; /* khdar dyal = */
+  background: #22c55e;
   color: white;
 }
 
 .clear { 
-  background: #ef4444; /* hmar dyal C */
+  background: #ef4444;
   color: white;
 }
 
 button:hover {
-  filter: brightness(1.2); /* kaych3al mlli tdouzi 3lih */
+  filter: brightness(1.2); 
 }
