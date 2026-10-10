@@ -1,0 +1,70 @@
+body { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column;
+  height: 100vh; 
+  margin: 0;
+  background: #0f172a; 
+}
+#title {
+  color: white;
+  font-size: 40px;
+  text-align: center; 
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+.calc { 
+  background: #1e293b; 
+  padding: 30px; 
+  border-radius: 25px; 
+  width: 350px; 
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+#result { 
+  width: 100%; 
+  height: 80px; 
+  font-size: 36px; 
+  margin-bottom: 20px; 
+  text-align: right; 
+  border-radius: 15px;
+  padding-right: 15px;
+  border: none;
+  background: #0f172a;
+  color: white;
+}
+
+button { 
+  width: 70px; 
+  height: 70px; 
+  margin: 6px; 
+  font-size: 26px; 
+  cursor: pointer; 
+  border-radius: 15px;
+  border: none;
+  background: #334155; /* loun dyal ar9am - gris */
+  color: white;
+  font-weight: bold;
+}
+
+/* === HNA LES COULEURS === */
+.op { 
+  background: #f59e0b; /* l-orange dyal + - * / */
+  color: white;
+}
+
+.equal { 
+  background: #22c55e; /* khdar dyal = */
+  color: white;
+}
+
+.clear { 
+  background: #ef4444; /* hmar dyal C */
+  color: white;
+}
+
+button:hover {
+  filter: brightness(1.2); /* kaych3al mlli tdouzi 3lih */
+}

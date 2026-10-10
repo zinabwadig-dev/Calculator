@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculatrice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Calculator</h1>
+    <div class="calc">
+    <input id="result" disabled>
+    
+    <button onclick="add('7')">7</button>
+    <button onclick="add('8')">8</button>
+    <button onclick="add('9')">9</button>
+    <button class="op" onclick="add('+')">+</button>
+
+    <button onclick="add('4')">4</button>
+    <button onclick="add('5')">5</button>
+    <button onclick="add('6')">6</button>
+    <button class="op" onclick="add('-')">-</button>
+
+    <button onclick="add('1')">1</button>
+    <button onclick="add('2')">2</button>
+    <button onclick="add('3')">3</button>
+    <button class="op" onclick="add('*')">*</button>
+
+    <button class="clear" onclick="clearAll()">C</button>
+    <button onclick="add('0')">0</button>
+    <button class="equal" onclick="calculate()">=</button>
+    <button class="op" onclick="add('/')">/</button>
+  </div>
+  <script src="script.js"></script> <!-- kanrabto js -->
+</body>
+</html>
+</body>
+</html>
